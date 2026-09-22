@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Flores Amarillas 💛</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;700&family=Great+Vibes&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <section class="intro-screen" id="introScreen">
+    <div class="stars" id="stars"></div>
+    <div class="particles" id="particles"></div>
+    <div class="sparkles" id="sparkles"></div>
+    <div class="glow-rings" id="glowRings"></div>
+    <div class="floating-lights" id="floatingLights"></div>
+    <div class="hearts" id="hearts"></div>
+
+    <button class="music-button" id="musicButton" aria-label="Activar música">🎵</button>
+
+    <div class="intro-content">
+      <div class="mini-flower">🌻</div>
+      <h1 class="neon-title">Feliz Día de las Flores Amarillas</h1>
+      <p class="dedication">
+        Con todo mi cariño y dedicación, te regalo este momento especial.
+        Que cada flor amarilla ilumine tu día como tú iluminas mi vida.
+      </p>
+      <button class="gift-button" id="giftButton">Un regalito para ti <span>💛</span></button>
+      <p class="hint">Toca el botón para descubrirlo ✨</p>
+    </div>
+  </section>
+
+  <main class="garden" id="garden" aria-hidden="true">
+    <div class="moon"></div>
+    <div class="stars-garden"></div>
+
+    <div class="message-card" id="messageCard">
+      <div class="card-flower">🌻</div>
+      <h2>Para ti, con mucho cariño 💛</h2>
+      <p>
+        A veces un detalle pequeño puede decir lo que las palabras no alcanzan.
+        Por eso hoy quiero regalarte estas flores amarillas: para recordarte
+        lo especial, valiosa y maravillosa que eres.
+      </p>
+      <p>
+        Espero que esta semana esté llena de momentos bonitos, sonrisas,
+        tranquilidad y muchas razones para sentirte orgullosa de ti.
+      </p>
+      <p class="signature">Con cariño, siempre. 💛</p>
+      <button class="close-card" id="closeCard">Cerrar ✨</button>
+    </div>
+
+    <div class="flowers" aria-hidden="true">
+      <div class="flower flower--1">
+        <div class="flower__leafs">
+          <i></i><i></i><i></i><i></i>
+          <div class="flower__center"></div>
+        </div>
+        <div class="flower__stem"><i></i><i></i><i></i></div>
+      </div>
+
+      <div class="flower flower--2">
+        <div class="flower__leafs">
+          <i></i><i></i><i></i><i></i>
+          <div class="flower__center"></div>
+        </div>
+        <div class="flower__stem"><i></i><i></i></div>
+      </div>
+
+      <div class="flower flower--3">
+        <div class="flower__leafs">
+          <i></i><i></i><i></i><i></i>
+          <div class="flower__center"></div>
+        </div>
+        <div class="flower__stem"><i></i><i></i><i></i></div>
+      </div>
+
+      <div class="grass grass--1"></div>
+      <div class="grass grass--2"></div>
+      <div class="grass grass--3"></div>
+    </div>
+  </main>
+
+  <!-- Música: Flores Amarillas — Floricienta (reproducción mediante reproductor oficial de YouTube) -->
+  <div class="youtube-music" aria-hidden="true">
+    <iframe
+      id="youtubePlayer"
+      src="https://www.youtube.com/embed/S7gMzYqXIZc?enablejsapi=1&controls=0&rel=0&playsinline=1"
+      title="Flores Amarillas — Floricienta"
+      allow="autoplay; encrypted-media; picture-in-picture"
+      frameborder="0">
+    </iframe>
+  </div>
+
+  <script src="https://www.youtube.com/iframe_api"></script>
+  <script src="script.js"></script>
+</body>
+</html>
